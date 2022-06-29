@@ -1,3 +1,6 @@
+//TO DO
+//find bigger word list, or free dictionary api
+
 const tileDisplay = document.querySelector(".tile-container");
 const keyboard = document.querySelector(".key-container");
 const messageDisplay = document.querySelector(".message-container");
