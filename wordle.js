@@ -92,11 +92,11 @@ keys.forEach((key) => {
 //clicks on-screen keyboard
 const handleClick = (key) => {
   console.log(`clicked`, key);
-  if (key === "DELETE") {
+  if (key === "DLT") {
     deleteLetter();
     return;
   }
-  if (key === "ENTER") {
+  if (key === "ENT") {
     checkRow();
     return;
   }

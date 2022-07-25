@@ -116,27 +116,32 @@ body {
     width: 100%;
   }
   .tile-container {
-    height: 100vh;
+    height: 70vh;
     width: 250px;
   }
   .key-container {
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
   }
 
   .key-container button {
-    width: 20px;
+    width: 30px;
     height: 30px;
     border-radius: 4px;
     border: none;
     background-color: #818384;
     margin: 4px;
     font-size: 10px;
+    padding: 0;
   }
 
   .key-container button:nth-child(11) {
     margin-left: 15px;
+  }
+
+  .key-container button:nth-child(21) {
+    margin-left: 25px;
   }
 
   .key-container button:nth-child(20),
