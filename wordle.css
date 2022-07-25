@@ -108,3 +108,18 @@ body {
   background-color: #538d4e !important;
   border: none !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .game-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+  .tile-container {
+    height: 100vh;
+    width: 250px;
+  }
+  .key-container {
+    display: none;
+  }
+}

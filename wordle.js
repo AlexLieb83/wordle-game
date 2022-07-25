@@ -5,7 +5,7 @@ const tileDisplay = document.querySelector(".tile-container");
 const keyboard = document.querySelector(".key-container");
 const messageDisplay = document.querySelector(".message-container");
 
-const wordleList = ["SUPER", "LOVER", "WATCH", "BOSSY", "MISTY"];
+const wordleList = ["SUPER", "LOVER", "WATCH", "BOSSY", "MISTY", "SLEEP", "TORSO", "DATES"];
 
 const wordle = wordleList[Math.floor(Math.random() * wordleList.length)];
 
