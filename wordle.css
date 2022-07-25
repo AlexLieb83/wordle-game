@@ -113,13 +113,33 @@ body {
   .game-container {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 100%;
   }
   .tile-container {
     height: 100vh;
     width: 250px;
   }
   .key-container {
-    display: none;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .key-container button {
+    width: 20px;
+    height: 58px;
+    border-radius: 4px;
+    border: none;
+    background-color: #818384;
+    margin: 4px;
+  }
+
+  .key-container button:nth-child(11) {
+    margin-left: 15px;
+  }
+
+  .key-container button:nth-child(20),
+  .key-container button:nth-child(28) {
+    width: 40px;
   }
 }

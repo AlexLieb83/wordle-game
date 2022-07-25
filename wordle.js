@@ -5,7 +5,16 @@ const tileDisplay = document.querySelector(".tile-container");
 const keyboard = document.querySelector(".key-container");
 const messageDisplay = document.querySelector(".message-container");
 
-const wordleList = ["SUPER", "LOVER", "WATCH", "BOSSY", "MISTY", "SLEEP", "TORSO", "DATES"];
+const wordleList = [
+  "SUPER",
+  "LOVER",
+  "WATCH",
+  "BOSSY",
+  "MISTY",
+  "SLEEP",
+  "TORSO",
+  "DATES",
+];
 
 const wordle = wordleList[Math.floor(Math.random() * wordleList.length)];
 
@@ -30,7 +39,7 @@ const keys = [
   "J",
   "K",
   "L",
-  "ENTER",
+  "ENT",
   "Z",
   "X",
   "C",
@@ -38,7 +47,7 @@ const keys = [
   "B",
   "N",
   "M",
-  "DELETE",
+  "DLT",
 ];
 
 //create the guess rows
